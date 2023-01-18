@@ -55,8 +55,8 @@ nav ul li a img{
     color: #000;
 }  
 /* banners */ 
-.team-banner{
-    background-size: cover;
+.team-banner{    
+    background: url("images/about_us.jpg");
     height: 100vh;
     font-size: 80px;
     color: #fff;
