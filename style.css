@@ -12,7 +12,7 @@ nav {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     padding: 40px 85px;
     z-index: 100000;
@@ -90,6 +90,7 @@ nav ul li a img{
     text-decoration: none;
     font-size: 40px;
     transition: .3s;
+    border-radius: 10px;
 }
 .homepage-banner a:hover {
     background: #333;
@@ -238,6 +239,7 @@ footer a{
     font-size: 14px;
 }
 .slide-body{
+    width: 70%;
     height: auto;
     margin-left: 20px;
     position: relative;
